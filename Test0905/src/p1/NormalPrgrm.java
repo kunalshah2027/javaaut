@@ -25,7 +25,7 @@ public class NormalPrgrm {
 	    	}
 	    	else 
 	    	{
-	    		System.out.println("odddddddddd");
+	    		System.out.println("odd");
 	    		System.out.println(arr[i]);
 	    	}
 	    	
