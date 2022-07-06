@@ -142,7 +142,7 @@ public class Reverse_AllPrgrm {
 	    System.out.println();
 	    System.out.println();
 	    
-	    System.out.println("P10: Replace First Character to Uppercase For single word string");
+	    System.out.println("P10: remove space ,reverse str and print odd position char");
 	    System.out.println("Expected lnkai");
 	    String k11 = "I am kunal";
 	    String s11 = k11.replaceAll(" ", "");

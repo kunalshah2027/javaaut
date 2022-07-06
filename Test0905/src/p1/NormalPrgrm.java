@@ -49,13 +49,13 @@ public class NormalPrgrm {
 	    	fact =1;
 	    }
 	    
-	    System.out.println("++++++++++++++");
+	    System.out.println("fibonise series++++++++++++++");
 	    int first =0;
 	    int second =1;
 	    int next ; 
-	    int n = 5;
+	    int n =10;
 	   	
-    	for (int j = 1;j<=n;j++)
+    	for (int j = 0;j<=n-1;j++)
 	    {
     		System.out.println(first); 
     		next = first + second;
@@ -165,7 +165,7 @@ public class NormalPrgrm {
 	    System.out.println();
 	    
 	    System.out.println("TextRead");
-	    File file= new File("F:\\Aut_Java\\Test0905\\src\\p1\\occ.txt");	
+	    File file= new File("C:\\Users\\Admin\\git\\javaaut\\Test0905\\src\\p1\\occ.txt");	
 		BufferedReader br=new BufferedReader(new FileReader(file));
 	    String line=br.readLine();
 	    StringBuilder sb = new StringBuilder();
@@ -184,6 +184,16 @@ public class NormalPrgrm {
 		 br.close();
 		 System.out.println(sb.toString());
 		 System.out.println(l);
+		 
+		 int n1 = 12345;
+		 int rev = 0;
+		 while (n1 != 0)
+		 {
+		     int r = n1 % 10;
+		     rev = rev * 10 + r;
+		     n1 = n1 / 10;
+		 }
+		 System.out.println(rev);
 	}
 	    
 }

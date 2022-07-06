@@ -39,7 +39,7 @@ public class StarAll {
 	    
 	    System.out.println();
 	    int i, j, k;
-	    int r = 7;
+	    int r = 5;
 	    
 	    for(i=r;i>=1;i--)
 		{
@@ -47,7 +47,7 @@ public class StarAll {
 		{
 		System.out.print(" ");
 		}
-		for(k=1;k<(i*2);k++)
+		for(k=1;k<2*i;k++)
 		{
 		System.out.print("*");
 		}
